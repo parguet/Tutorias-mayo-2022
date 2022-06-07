@@ -99,7 +99,6 @@ public class Main {
         int[] arreglo1;
         arreglo1 = new int[5];
         //[0, 0, 0, 0, 0]
-
         arreglo1[0] = 10;
         arreglo1[1] = 3;
         arreglo1[2] = 5;
@@ -107,6 +106,31 @@ public class Main {
         arreglo1[4] = 110;
         System.out.println("-----ARREGLO-------");
         System.out.println(arreglo1[4]);
+        for (int i = 0; i <5 ; i++) {
+            arreglo1[i] = 10;
+        }
+
+
+        //ARREGLO MULTIDIMENSIONAL
+        //   [10, 0, 0, 0, 0]
+        //   [0, 0, 0, 0, 0]
+        //   [0, 0, 0, 0, 0]
+        //   [0, 0, 0, 0, 0]
+        //   [0, 0, 0, 0, 0]
+        int[][] matriz;
+        matriz = new int[5][5];
+        matriz[0][0] = 10;
+        matriz[4][1] = 80;
+        matriz[4][4] = 65;
+
+        for (int i = 0; i <5 ; i++) {
+            for (int j = 0; j <5 ; j++) {
+                matriz[i][j] = 20;
+            }
+        }
+
+
+
 
 
     }
